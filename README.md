@@ -55,3 +55,20 @@ chmod 400 <nome-da-sua-chave>.pem
 # Comando de conexão (substitua o usuário e o IP)
 ssh -i <nome-da-sua-chave>.pem <usuario-da-ami>@<IP-Público-da-Instância>
 # Ex: ssh -i chave-dio-ec2.pem ubuntu@34.200.100.50
+
+
+## 🖼️ Evidências Visuais da Prática
+
+Aqui estão as capturas de tela que comprovam o gerenciamento da instância EC2:
+
+### 1. Revisão do Lançamento
+Esta imagem mostra a tela de revisão final antes de lançar a instância:
+
+![Revisão da Configuração EC2](aws.png)
+
+### 2. Status da Instância
+Esta imagem mostra o console do EC2 com a instância no estado de execução ou parada:
+
+![Console do EC2 e Status](aws2.jpg)
+
+---
